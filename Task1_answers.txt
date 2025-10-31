@@ -1,0 +1,35 @@
+Task 1 — Turtlesim discovery Task 1 answers
+
+1) What is the name of the publisher node?
+ teleop_turtle
+ if you run one of our nodes (straight_line, circle, roomba, goto, etc.) that node will be the publisher for /turtle1/cmd_vel while it runs.
+
+2)What is the  Message type of cmd_vel?
+Type: geometry_msgs/msg/Twist
+Fields:
+Vector3 linear
+  float64 x
+  float64 y
+  float64 z
+Vector3 angular
+  float64 x
+  float64 y
+  float64 z
+
+3) What is the  frequency of publication f the node publishing on  /cmd_vel?
+10 Hz (e.g., average rate readings: ~9.93–10.00 Hz).
+
+4) What is the Message type of /turtle1/pose:
+Type: turtlesim/msg/Pose
+Fields:
+float32 x
+float32 y
+float32 theta
+float32 linear_velocity
+float32 angular_velocity
+
+5) Example message from /turtle1/color_sensor:
+r: 179
+g: 184
+b: 255
+---
