@@ -17,6 +17,10 @@ setup(
         'console_scripts': [
             'straight_line = turtlesim_pde4430.straight_line:main',
             'circle = turtlesim_pde4430.circle:main',
+            'figure8 = turtlesim_pde4430.figure8:main',
+            'roomba = turtlesim_pde4430.roomba:main',
+            'spawn_multi = turtlesim_pde4430.spawn_multi:main',
+            'goto = turtlesim_pde4430.goto:main',
         ],
     },
 )
